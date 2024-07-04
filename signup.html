@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+</head>
+<header>
+    <table bgcolor="green" height="100px" width="100%">
+      <tr>
+        <td width="57%">
+          <font color="#fff" size="6" face="'Poppins', sans-serif">
+            <b> &nbsp;&nbsp;BookStore</b>
+          </font>
+        </td>
+        <td align="right" width="10%">
+          <font color="#fff" size="3" face="'Poppins', sans-serif">
+            <a href="index.html">HOME</a>
+          </font>
+        </td>
+        
+      </tr>
+    </table>
+  </header>
+<body>
+  <h2>Sign Up</h2>
+  <form action="/submit-your-signup-form" method="post">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="confirm-password">Confirm Password:</label><br>
+    <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+
+    <button type="submit">Sign Up</button>
+  </form>
+</body>
+</html>
